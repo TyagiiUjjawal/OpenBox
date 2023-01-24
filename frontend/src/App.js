@@ -101,6 +101,7 @@ function App() {
           path="/password/update"
           component={UpdatePassword}
         />
+           //safafsa
 
         <Route exact path="/password/forgot" component={ForgotPassword} />
 
