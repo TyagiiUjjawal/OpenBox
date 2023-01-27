@@ -53,7 +53,7 @@ function App() {
  
     setStripeApiKey(data.stripeApiKey);
   }
-
+//console.log("fsf");
   useEffect(() => {
     WebFont.load({
       google: {
@@ -101,6 +101,7 @@ function App() {
           path="/password/update"
           component={UpdatePassword}
         />
+           //safafsa
 
         <Route exact path="/password/forgot" component={ForgotPassword} />
 

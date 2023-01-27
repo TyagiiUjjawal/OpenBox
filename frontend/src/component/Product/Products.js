@@ -19,7 +19,7 @@ const categories = [
   "Footwear",
   "Attire",
 ];
-
+//ye mne products ka bnaya
 const Products = ({ match }) => {
   const dispatch = useDispatch();
 
