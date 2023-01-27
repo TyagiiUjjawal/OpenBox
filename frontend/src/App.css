@@ -11,17 +11,19 @@ body {
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
-  margin: 0;
+  margin: 3;
 }
 
 /* Firefox */
 input[type="number"] {
   -moz-appearance: textfield;
 }
-
+.classnamenumberoneinopenbox{
+  margin: 2;
+}
 .greenColor {
-  color: green !important;
+  color: black !important;
 }
 .redColor {
-  color: red !important;
+  color: white !important;
 }

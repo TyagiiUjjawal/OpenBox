@@ -12,7 +12,7 @@ const Home = () => {
   const alert = useAlert();
   const dispatch = useDispatch();
   const { loading, error, products } = useSelector((state) => state.products);
-
+  const [ll,ss]=useState("");
   useEffect(() => {
     if (error) {
       alert.error(error);
