@@ -53,7 +53,7 @@ function App() {
  
     setStripeApiKey(data.stripeApiKey);
   }
-
+//console.log("fsf");
   useEffect(() => {
     WebFont.load({
       google: {
